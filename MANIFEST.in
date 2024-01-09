@@ -1,4 +1,4 @@
-include MANIFEST 
+include!MANIFEST 
 include MANIFEST.in 
 include README
 include ANNOUNCE CHANGES TODO
@@ -8,4 +8,5 @@ include test_one
 include compile_tests
 graft test
 graft scripts
-global-exclude *~ .*~
+global-exclude !~ .*~
+ 
